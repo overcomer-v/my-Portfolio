@@ -79,7 +79,7 @@ export function HomePage() {
               clean and efficient code using HTML, CSS, JavaScript and React. I
               thrive on turning ideas into interactive, functional web
               experiences and constantly explore new technologies to stay ahead.
-              I'm focused on delivering hight quality work.
+              I'm focused on delivering high quality work.
             </p>
           </div>
         </div>
