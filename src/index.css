@@ -13,22 +13,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+img{
+  background: #202020;
+}
+
 
 @font-face {
   font-family: "Nunito";
-  src: url("/public/fonts/nunito-light-regular.ttf");
+  src: url("/fonts/nunito-light-regular.ttf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("/public/fonts/nunito-Bold.ttf");
+  src: url("/fonts/nunito-Bold.ttf");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("/public/fonts/Nunito-ExtraBold.ttf");
+  src: url("/fonts/Nunito-ExtraBold.ttf");
   font-weight: 700;
 }
 

@@ -45,7 +45,7 @@ export function HomePage() {
           </div>{" "}
           <img
             className="h-60 w-60 object-cover rounded-2xl border-amber-800"
-            src="/images/IMG_20240902_100056 (3).jpg"
+            src="/images/IMG_20240902_100056_(3).jpg"
             alt=""
           />
         </div>
