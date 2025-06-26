@@ -38,7 +38,7 @@ export function HomePage() {
             <p>Web developer and web designer</p>
             <a
               href="mailto:atoyejeovercomer2@gmail.com?subject=Hiring%20Inquiry"
-              className="px-6 opacity-85 w-fit py-3 rounded-xl mt-4 text-xs text-amber-600 font-semibold border-[2px] border-amber-600"
+              className="px-6 opacity-85 w-fit py-3 rounded-xl  hover:bg-amber-600 hover:text-white mt-4 text-xs text-amber-600 font-semibold border-[2px] border-amber-600"
             >
               HIRE ME
             </a>
@@ -207,14 +207,14 @@ function ServicesCard({ title, content, icondata }) {
 function SocialLinks({ iconData, to }) {
   return (
     <a href={to}>
-      <i className={`${iconData} bg-neutral-800 rounded-full p-2`}></i>
+      <i className={`${iconData} bg-neutral-800 rounded-full p-2 hover:bg-neutral-100 hover:text-neutral-900`}></i>
     </a>
   );
 }
 
 function ProjectCard({ title, image, desc, stack, url, githubUrl }) {
   return (
-    <div className="p-6 bg-neutral-900 rounded-2xl">
+    <a href={url} className="p-6 bg-neutral-900 rounded-2xl transition-transform duration-300 hover:scale-105">
       <img
         className="mb-4 w-full md:h-[200px] h-[130px] rounded-xl object-cover"
         src={image}
@@ -240,7 +240,7 @@ function ProjectCard({ title, image, desc, stack, url, githubUrl }) {
           </button>
         </a>
       </div>
-    </div>
+    </a>
   );
 }
 
