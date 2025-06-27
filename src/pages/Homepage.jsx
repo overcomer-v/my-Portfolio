@@ -1,9 +1,9 @@
 export function HomePage() {
   const projects = [
     ProjectObject({
-      title: "EdCurex",
+      title: "EdCure",
       image: "/images/projects-thumbnail/edcurex-project-thumbnail.jpg",
-      desc: "EdCurex is a 3-paged landing page website for a medical organization. It constains the main landing page, contact us page and about us page.",
+      desc: "EdCurex is a 3-paged landing page website for a medical organization. It contains Home page, Contact Us page and About Us page.",
       stack: ["HTML", "CSS", "JavaScript"],
       url: "https://edcurex-pbcu.vercel.app/",
       githubUrl: "https://github.com/overcomer-v/Edcurex",
@@ -19,7 +19,7 @@ export function HomePage() {
     ProjectObject({
       title: "AboutMovies",
       image: "/images/projects-thumbnail/aboutmovies-project-thumbnail.jpg",
-      desc: "AboutMovies is a webapp that allows you to explore the world of movies. It`s developed mainly for givig details in full on a particular movies or tv shows and also to inttroduce you to a new one",
+      desc: "AboutMovies is a webapp that allows you to explore the world of movies. It gives full details on particular movies and tv shows and also provide movie suggestions",
       stack: ["HTML", "CSS", "JavaScript"],
       url: "https://aboutmovies-six.vercel.app/",
       githubUrl: "https://github.com/overcomer-v/aboutmovies",
