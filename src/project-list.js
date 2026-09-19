@@ -26,11 +26,20 @@ export const projects = [
 
   ProjectObject({
     title: "QuilStory",
-    image:"/images/Screenshot 2026-03-31 185628.png",
+    image: "/images/Screenshot 2026-03-31 185628.png",
     desc: "Quilstory is a safe web app designed to record your Journals and Notes in one places, and one if its distinct features is the storage of image together with the journals, to capture the moment better",
-    stack: ["React", "TailwindCSS", "JavaScript"],
+    stack: ["React", "TailwindCSS", "JavaScript","Supabase"],
     url: "https://quilstory.vercel.app/",
-    githubUrl:"https://github.com/overcomer-v/quilstory"
+    githubUrl: "https://github.com/overcomer-v/quilstory",
+  }),
+
+  ProjectObject({
+    title: "Urban Loom",
+    image: "/images/projects-thumbnail/urban-loom-project-preview.png",
+    desc: "Urban Loom is a full-stack fashion e-commerce platform built with Next.js and PostgreSQL, featuring product discovery, category filtering, authentication, cart management, and a responsive shopping experience. The platform includes a demo checkout flow that simulates the complete transaction process, from reviewing cart items to order completion, without processing real payments. The project focuses on building a realistic e-commerce architecture while maintaining a clean, modern fashion-oriented interface.",
+    stack: ["Next", "TailwindCSS", "Typescript", "Postgresql"],
+    url: "https://urban-loom.vercel.app",
+    githubUrl: "https://github.com/overcomer-v/urban-loom",
   }),
 ];
 

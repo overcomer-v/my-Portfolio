@@ -95,7 +95,6 @@ export function HomePage() {
             </div>
 
             {/* Portrait */}
-            {/* Portrait */}
             <div className="relative mx-auto w-fit md:mx-0">
               {/* Large background number */}
               <span
@@ -469,26 +468,25 @@ function ProjectCard({ number, title, image, desc, stack, url, githubUrl }) {
 
       {/* Details */}
       <div className="mt-5">
-        <div className="flex items-start justify-between gap-5">
-          <div>
-            <h3 className="text-xl font-semibold tracking-tight md:text-2xl">
+        <div className="flex flex-col gap-5">
+          <div className="flex items-center justify-between">
+            <h3 className="flex items-center justify-between text-xl font-semibold tracking-tight md:text-2xl">
               {title}
             </h3>
 
-            <p className="mt-3 max-w-xl text-sm leading-6 text-neutral-500">
-              {desc}
-            </p>
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Visit ${title}`}
+              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-neutral-800 text-neutral-500 transition-all duration-300 hover:border-amber-600 hover:bg-amber-600 hover:text-black"
+            >
+              ↗
+            </a>
           </div>
-
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Visit ${title}`}
-            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-neutral-800 text-neutral-500 transition-all duration-300 hover:border-amber-600 hover:bg-amber-600 hover:text-black"
-          >
-            ↗
-          </a>
+          <p className="mt-3 md:max-w-xl text-sm leading-6 text-neutral-500">
+            {desc}
+          </p>
         </div>
 
         <div className="mt-5 flex flex-wrap gap-2">
